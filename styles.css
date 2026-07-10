@@ -65,3 +65,41 @@ header{
     padding: 20px 0px;
     font-size: 20px;
 }
+
+.speakers{
+    font-size: 50px;
+    font-weight: bold;
+    display: grid;
+    justify-content: center;
+}
+
+.speakers-container{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+ .speakers-container .speakers-card{
+    
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px #E5E7EB;
+}
+
+.speakers-card .speakers-p{
+    color: #2563EB;
+}
+
+.speakers-card{
+    display: grid;
+    gap: 10px;
+}
+
+.speakers-card .speakers-p, h4, p{
+    padding-left: 10px;
+    
+}
+
+.speakers-card p{
+    padding-bottom: 10px;
+}
