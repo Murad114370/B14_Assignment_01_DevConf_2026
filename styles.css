@@ -103,3 +103,90 @@ header{
 .speakers-card p{
     padding-bottom: 10px;
 }
+
+.secure{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.secure .secure-p1{
+    font-size: 38px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.secure .secure-p2{
+    color: #575757;
+}
+
+.secure-container{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    
+}
+
+.secure-container .secure-card{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px #E5E7EB;
+    padding: 40px;
+}
+
+.secure-card{
+    display: grid;
+    gap: 10px;
+}
+
+.secure-card p, .secure-btn{
+    padding: 5px 0 5px 10px;
+}
+
+.secure-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 8%;
+    padding: 8px 95px;
+    border-radius: 10px;
+    border: 2px solid #2563EB;
+    color: #2563EB;
+    background-color: #FFFFFF;
+    font-weight: bold;
+}
+
+.secure-card2{
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+}
+
+
+#pro{
+    background-color: #2563EB;
+    color: #FFFFFF;
+    
+}
+
+#secure-p3-pro{
+    color: #93C5FD;
+    font-size: 26px;
+    font-weight: 500;
+}
+span{
+    color: #1D4ED8;
+    
+}
+
+.secure-p3{
+    color: #575757;
+}
+
+.secure-p4{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#secure-btn3{
+    border: 2px solid #0D1B2A;
+    color: #0D1B2A;
+}
