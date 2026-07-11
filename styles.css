@@ -33,6 +33,7 @@ a{
     color: #FFFFFF;
     border: none;
     background-color: #1D4ED8;
+    cursor: pointer;
 }
 
 header{
@@ -64,6 +65,7 @@ header{
     margin-top: 260px;
     padding: 20px 0px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .speakers{
@@ -160,6 +162,7 @@ header{
     color: #2563EB;
     background-color: #FFFFFF;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .secure-card2{
@@ -193,17 +196,62 @@ header{
 #secure-btn3{
     border: 2px solid #0D1B2A;
     color: #0D1B2A;
+    
 }
 
 .newslatter{
     display: grid;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     gap: 20px;
+    margin-bottom: 40px;
+}
+
+.newslatter-bottom{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    background-color: #93C5FD;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+
+.newslatter-bottom span{
+    color: rgb(203, 59, 19);
+}
+
+.newslatter-bottom p{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .newslatter p{
     font-size: 20px;
+}
+
+.email-input{
+    width: 350px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subscribe-btn{
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #2563eb;
+    border-radius: 8px;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
 }
 
 footer{
