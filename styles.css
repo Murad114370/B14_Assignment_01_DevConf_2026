@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-section{
+section, footer{
     padding: 60px 8%;
 }
 
@@ -15,7 +15,7 @@ nav{
     background-color: #FFFFFF;
 }
 
-ul{
+ nav ul{
     display: flex;
     list-style: none;
     gap: 20px;
@@ -139,6 +139,13 @@ header{
     gap: 10px;
 }
 
+.secure-container .secure-card-pointer ul li::marker{
+    color: #2563EB;
+}
+
+ 
+
+
 .secure-card p, .secure-btn{
     padding: 5px 0 5px 10px;
 }
@@ -147,7 +154,7 @@ header{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 8%;
-    padding: 8px 95px;
+    padding: 8px 110px;
     border-radius: 10px;
     border: 2px solid #2563EB;
     color: #2563EB;
@@ -172,10 +179,7 @@ header{
     font-size: 26px;
     font-weight: 500;
 }
-span{
-    color: #1D4ED8;
-    
-}
+
 
 .secure-p3{
     color: #575757;
@@ -189,4 +193,31 @@ span{
 #secure-btn3{
     border: 2px solid #0D1B2A;
     color: #0D1B2A;
+}
+
+.newslatter{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.newslatter p{
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0D1B2A;
+}
+
+.footer-left,.footer-right p{
+    color: #FFFFFF;
+}
+
+
+
+.footer-right{
+    display: flex;
 }
