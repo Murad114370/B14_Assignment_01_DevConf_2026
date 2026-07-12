@@ -136,6 +136,14 @@ header{
     padding: 40px;
 }
 
+#card2-text-edit ul{
+    color: #888888;
+}
+
+.secure-card-pointer ul{
+    color: #888888;
+}
+
 .secure-card{
     display: grid;
     gap: 10px;
@@ -155,8 +163,8 @@ header{
 .secure-btn{
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 8%;
-    padding: 8px 110px;
+    margin-left: 6%;
+    padding: 10px 100px;
     border-radius: 10px;
     border: 2px solid #2563EB;
     color: #2563EB;
@@ -174,6 +182,7 @@ header{
 #pro{
     background-color: #2563EB;
     color: #FFFFFF;
+    padding: 10px 110px;
     
 }
 
